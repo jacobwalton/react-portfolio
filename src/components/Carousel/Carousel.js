@@ -1,5 +1,5 @@
 import React from "react";
-// import { Jumbotron, Container, Row, Col } from "react-bootstrap";
+import { Jumbotron, Container, Row, Col } from "react-bootstrap";
 import "./carousel.css";
 import Card from "../Card/Card";
 
@@ -13,7 +13,8 @@ class Carousel extends React.Component {
           title: "project name0",
           subTitle: "brief description0",
           src: "https://via.placeholder.com/150x150",
-          link: "link to project0",
+          deployedLink: "link to project0",
+          gitHubLink: "link-to-github0",
           selected: false,
         },
         {
@@ -21,7 +22,8 @@ class Carousel extends React.Component {
           title: "project name1",
           subTitle: "brief description1",
           src: "https://via.placeholder.com/150x150",
-          link: "link to project1",
+          deployedLink: "link to project1",
+          gitHubLink: "link-to-github1",
           selected: false,
         },
         {
@@ -29,7 +31,8 @@ class Carousel extends React.Component {
           title: "project name2",
           subTitle: "brief description2",
           src: "https://via.placeholder.com/150x150",
-          link: "link to project2",
+          deployedLink: "link to project2",
+          gitHubLink: "link-to-github2",
           selected: false,
         },
         {
@@ -37,7 +40,8 @@ class Carousel extends React.Component {
           title: "project name3",
           subTitle: "brief description3",
           src: "src-to-img3",
-          link: "link to project3",
+          deployedLink: "link to project3",
+          gitHubLink: "link-to-github3",
           selected: false,
         },
       ],
@@ -71,7 +75,13 @@ class Carousel extends React.Component {
   };
 
   render() {
-    return <p>Carousel works!</p>;
+    return (
+      <Container fluid={true}>
+        <Row className="justify-content-around">
+          {this.printItems(this.state.items)}
+        </Row>
+      </Container>
+    );
   }
 }
 

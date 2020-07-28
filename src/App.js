@@ -82,7 +82,6 @@ class App extends React.Component {
             render={() => <Contact title={this.state.contact.title} />}
           />
 
-          {/* footer */}
           <Footer />
         </Container>
       </Router>
