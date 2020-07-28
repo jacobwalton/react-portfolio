@@ -8,18 +8,18 @@ function Hero(props) {
         <Row className="justify-content-center">
           <Col md={8} sm={12}>
             {props.title && (
-              <h1 className="display-1 font-weight-bolder text-center">
+              <h5 className="display-4 font-weight-bolder text-center">
                 {props.title}
-              </h1>
+              </h5>
             )}
             {props.title && (
-              <h2 className="display-4 font-weight-light text-center">
+              <h5 className="font-weight-light text-center">
                 {props.subtitle}
-              </h2>
+              </h5>
             )}
-            {props.title && (
+            {/* {props.title && (
               <p className="lead font-weight-light text-center">{props.text}</p>
-            )}
+            )} */}
           </Col>
         </Row>
       </Container>

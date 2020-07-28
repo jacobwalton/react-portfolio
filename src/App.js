@@ -25,9 +25,8 @@ class App extends React.Component {
         { title: "Contact", path: "/contact" },
       ],
       home: {
-        title: "Jacob Walton",
-        subtitle: "Full Stack Web Developer",
-        text: "Take a look at a few of my projects below!",
+        title: "Full Stack Web Developer",
+        subtitle: "Take a look at a few of my projects below!",
       },
       about: {
         title: "About Me",
@@ -42,7 +41,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom bg-light" expand="lg">
-            <Navbar.Brand>My Page</Navbar.Brand>
+            <Navbar.Brand>Jacob Walton</Navbar.Brand>
             {/* nav toggle links button*/}
             <Navbar.Toggle aria-controls="navbar-toggle" className="border-0" />
             {/* controls toggle */}

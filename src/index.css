@@ -15,22 +15,33 @@ code {
 footer {
   margin-top: 50px;
 }
-
+body {
+  background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+}
 .port-cards {
   margin: 20px;
+  margin: 0, auto;
+  display: block;
 }
 
 .port-imgs {
   border-radius: 10px;
-  width: 300px;
-  height: 300px;
-  box-shadow: 0px 0px 3px 1px #ccc;
+  width: 350px;
+  height: 220px;
+  box-shadow: 0px 0px 15px 10px #ccc;
   margin: 10px;
+  margin-top: 100px;
+  -webkit-filter: blur(5px);
+  cursor: pointer;
+}
+.port-imgs:hover {
+  -webkit-filter: blur(0px);
 }
 
 .port-title {
   font-size: 24px;
   margin: 0px;
+  font-weight: bolder;
 }
 
 .port-info {
