@@ -1,11 +1,13 @@
 // react and style
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 import "./App.css";
 
 // components
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer.js";
 
 // pages
 import Home from "./pages/Home";
@@ -23,9 +25,9 @@ class App extends React.Component {
         { title: "Contact", path: "/contact" },
       ],
       home: {
-        title: "Something to say on home screen(title)",
-        subtitle: "Something else to say here(subtitle)",
-        text: "projects",
+        title: "Jacob Walton",
+        subtitle: "Full Stack Web Developer",
+        text: "Take a look at a few of my projects below!",
       },
       about: {
         title: "About Me",
@@ -39,8 +41,8 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Jacob Walton</Navbar.Brand>
+          <Navbar className="border-bottom bg-light" expand="lg">
+            <Navbar.Brand>My Page</Navbar.Brand>
             {/* nav toggle links button*/}
             <Navbar.Toggle aria-controls="navbar-toggle" className="border-0" />
             {/* controls toggle */}
@@ -73,12 +75,10 @@ class App extends React.Component {
           />
           <Route
             path="/about"
-            exact
             render={() => <About title={this.state.about.title} />}
           />
           <Route
             path="/contact"
-            exact
             render={() => <Contact title={this.state.contact.title} />}
           />
 

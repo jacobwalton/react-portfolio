@@ -5,8 +5,11 @@ import "./card.css";
 
 function Card(props) {
   return (
-    <div>
-      <img className="" src={props.item.src} alt={props.item.src} />
+    <div
+      className="d-inline-block port-card"
+      onClick={(event) => props.onClick(props.item)}
+    >
+      <img className="port-imgs" src={props.item.src} alt={props.item.src} />
       {props.item.selected && (
         <CardCaption
           title={props.item.title}
