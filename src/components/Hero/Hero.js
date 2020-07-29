@@ -3,7 +3,7 @@ import { Jumbotron, Container, Row, Col } from "react-bootstrap";
 
 function Hero(props) {
   return (
-    <Jumbotron className="bg-transparent jumbotron-fluid">
+    <Jumbotron className="bg-transparent jumbotron-fluid pb-1">
       <Container>
         <Row className="justify-content-center">
           <Col md={8} sm={12}>
@@ -17,9 +17,6 @@ function Hero(props) {
                 {props.subtitle}
               </h5>
             )}
-            {/* {props.title && (
-              <p className="lead font-weight-light text-center">{props.text}</p>
-            )} */}
           </Col>
         </Row>
       </Container>

@@ -9,7 +9,7 @@ function Footer() {
       <Container fluid={true}>
         <Row className="border-top p-3 bg-light">
           <Col className="p-0 text-center">
-            Footer Text <br />
+            Jacob Walton <br />
             Created using React
           </Col>
         </Row>
