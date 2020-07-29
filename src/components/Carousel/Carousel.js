@@ -13,7 +13,7 @@ class Carousel extends Component {
           title: "Employee Directory",
           subTitle:
             "Easily keep track of your employees by utilizing a search bar and the ability to sort by name!",
-          src: "https://im6.ezgif.com/tmp/ezgif-6-c1f186baae05.gif",
+          src: "https://i.ibb.co/Tgq1Wt8/emp-dir-proj.gif",
           link: "https://jacob-emp-dir.herokuapp.com/",
           gitHubLink: "https://github.com/jawalton6616/employee-directory",
           selected: false,
@@ -22,7 +22,7 @@ class Carousel extends Component {
           id: 1,
           title: "Fitness Tracker",
           subTitle: "Keep track of your cardio and resistance exercises!",
-          src: "https://im6.ezgif.com/tmp/ezgif-6-76f0e3eb9920.gif",
+          src: "https://i.ibb.co/xmHXzSm/fitness-hmwk.gif",
           link: "https://gentle-badlands-81439.herokuapp.com/",
           gitHubLink: "https://github.com/jawalton6616/workout-tracker",
           selected: false,
@@ -32,7 +32,7 @@ class Carousel extends Component {
           title: "Note Taker",
           subTitle:
             "Note taker for grocery lists, todo lists, or anything you want.",
-          src: "https://im6.ezgif.com/tmp/ezgif-6-0e412c383ff1.gif",
+          src: "https://i.ibb.co/k23RPf6/note-taker-hmwk.gif",
           link: "https://vast-journey-82352.herokuapp.com/",
           gitHubLink: "https://github.com/jawalton6616/note-taker",
           selected: false,
@@ -41,7 +41,7 @@ class Carousel extends Component {
           id: 3,
           title: "Simpsons Quote Trivia",
           subTitle: "Test how well you know your Simpsons quotes!",
-          src: "https://im6.ezgif.com/tmp/ezgif-6-f847f2d0b23d.gif",
+          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
           link: "https://jawalton6616.github.io/simpsons-quote-trivia/",
           gitHubLink: "https://github.com/jawalton6616/simpsons-quote-trivia",
           selected: false,
@@ -53,7 +53,6 @@ class Carousel extends Component {
   onClick = (id, card) => {
     const items = [...this.state.items];
     items[id].selected = items[id].selected ? false : true;
-
     items.forEach((item) => {
       if (item.id !== id) {
         item.selected = false;
