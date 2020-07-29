@@ -9,10 +9,11 @@ function About(props) {
     <animated.div className="port-info" style={style}>
       <Hero title={props.title} />
       <Content className="px-4">
-        My name is Jacob and I am a 22 year old student from Kansas City. I have
-        2 crazy dogs, and my passion is music. I currently work in Overland
-        Park, KS as a government contractor. My favorite color is purple and I
-        don't know what else to type here.
+        My name is Jacob and I am a 22 year old full stack web developer from
+        Kansas City. I am self taught in graphic design as well as music
+        production. I have 2 crazy dogs, and my passion is music. I currently
+        work in Overland Park, KS as a government contractor. My favorite color
+        is purple and I don't know what else to type here.
       </Content>
     </animated.div>
   );
