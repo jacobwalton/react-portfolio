@@ -15,12 +15,23 @@ function Contact(props) {
             <mark>jawalton6616@gmail.com</mark>
           </a>
         </strong>
-        <ul>
+        <ul className="mt-5">
           <li>
-            <a href="#">GitHub</a>
+            <a
+              href="https://github.com/jawalton6616?tab=repositories"
+              target="_blank"
+            >
+              GitHub
+            </a>
           </li>
+          <br />
           <li>
-            <a href="#">LinkedIn</a>
+            <a
+              href="https://www.linkedin.com/in/jacob-walton-b7b3911a2/"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
           </li>
         </ul>
       </Content>

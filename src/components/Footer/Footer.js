@@ -2,10 +2,11 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "./footer.css";
 
 function Footer() {
   return (
-    <footer className="mt-5">
+    <footer id="sticky-footer">
       <Container fluid={true}>
         <Row className="border-top p-3 bg-light">
           <Col className="p-0 text-center">

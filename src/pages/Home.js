@@ -7,7 +7,7 @@ function Home(props) {
   const style = useSpring({ opacity: 1, from: { opacity: 0 } });
 
   return (
-    <animated.div style={style}>
+    <animated.div className="wrapper" style={style}>
       <Hero title={props.title} subtitle={props.subtitle} text={props.text} />
       <Carousel />
     </animated.div>

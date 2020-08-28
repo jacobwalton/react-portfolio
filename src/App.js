@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import "./App.css";
-
 // components
 import Footer from "./components/Footer/Footer.js";
 
@@ -39,7 +37,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Container className="p-0" fluid={true}>
+        <Container className="p-0 " fluid={true}>
           <Navbar className="border-bottom bg-light" expand="lg">
             <Navbar.Brand>Jacob Walton</Navbar.Brand>
             {/* nav toggle links button*/}
@@ -52,7 +50,7 @@ class App extends React.Component {
                   Home
                 </Link>
                 <Link className="nav-link" to="/about">
-                  About
+                  About me
                 </Link>
                 <Link className="nav-link" to="/contact">
                   Contact
@@ -81,7 +79,7 @@ class App extends React.Component {
             render={() => <Contact title={this.state.contact.title} />}
           />
 
-          <Footer />
+          <Footer className="sticky-footer" />
         </Container>
       </Router>
     );
