@@ -39,49 +39,50 @@ class Carousel extends Component {
         },
         {
           id: 3,
-          title: "Simpsons Quote Trivia",
-          subTitle: "Test how well you know your Simpsons quotes!",
+          title: "Covid Tracker",
+          subTitle: "Keep track of all the latest COVID numbers",
+          //replace img below
           src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
-          link: "https://jawalton6616.github.io/simpsons-quote-trivia/",
-          gitHubLink: "https://github.com/jawalton6616/simpsons-quote-trivia",
+          link: "https://covid-tracker-79a3b.web.app/",
+          gitHubLink: "https://github.com/jawalton6616/covid-tracker",
           selected: false,
         },
         {
           id: 4,
+          title: "React News App",
+          subTitle: "Follow all the latest news stories",
+          //replace img below
+          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          link: "https://news-app-dun.vercel.app/",
+          gitHubLink: "https://github.com/jawalton6616/news-app",
+          selected: false,
+        },
+        {
+          id: 5,
+          title: "Workout Tracker",
+          subTitle: "Keep track of all your trips to the gym!",
+          //replace img below
+          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          link: "https://gentle-badlands-81439.herokuapp.com/",
+          gitHubLink: "https://github.com/jawalton6616/workout-tracker",
+          selected: false,
+        },
+        {
+          id: 6,
           title: "Weather Dashboard",
           subTitle:
-            "Check the current weather AND a 5 day forecast of any city you want",
-          //ADDGIF WEATHER DASHBOARD
+            "Find out the weather and 5 day forecast of any city imaginable",
+          //replace img below
           src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
           link: "https://jawalton6616.github.io/weather-dashboard/",
           gitHubLink: "https://github.com/jawalton6616/weather-dashboard",
           selected: false,
         },
         {
-          id: 5,
-          title: "Password Generator",
-          subTitle: "Password too weak? Problem solved!",
-          //ADDGIF PASSWORD GENERATOR
-          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
-          link: "https://jawalton6616.github.io/password-generator/",
-          gitHubLink: "https://github.com/jawalton6616/password-generator",
-          selected: false,
-        },
-        {
-          id: 6,
-          title: "Work Scheduler",
-          subTitle: "Keep track of your busy work day.",
-          //ADDGIF WORK SCHEDULER
-          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
-          link: "https://jawalton6616.github.io/simpsons-quote-trivia/",
-          gitHubLink: "https://github.com/jawalton6616/simpsons-quote-trivia",
-          selected: false,
-        },
-        {
           id: 7,
           title: "README Generator",
           subTitle: "Because making README's are never fun",
-          //ADDGIF READMEGENERATOR
+          //replace img below
           src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
           link: "https://github.com/jawalton6616/readme-generator",
           gitHubLink: "https://github.com/jawalton6616/readme-generator",
@@ -89,13 +90,24 @@ class Carousel extends Component {
         },
         {
           id: 8,
-          title: "Burger Logger",
-          subTitle:
-            "Keep track of your dream list of burgers that you want to devour!",
-          //ADDGIF BURGER LOGGER
+          title: "Country Info App",
+          subTitle: "Easily find and view country information",
+          //replace img below
           src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
-          link: "https://salty-earth-63688.herokuapp.com/",
-          gitHubLink: "https://github.com/jawalton6616/burger-log",
+          link: "https://country-info-app.vercel.app/",
+          gitHubLink: "https://github.com/jawalton6616/country-info-app",
+          selected: false,
+        },
+        {
+          id: 9,
+          title: "Password Generator",
+          subTitle:
+            "Having trouble coming up with a password? Use this easy password generator",
+          //replace img below
+          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          link: "https://jawalton6616.github.io/password-generator/",
+          gitHubLink:
+            "https://github.com/jawalton6616/password-generator/blob/master/README.md",
           selected: false,
         },
       ],
