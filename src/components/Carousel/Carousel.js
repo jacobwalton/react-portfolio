@@ -46,6 +46,58 @@ class Carousel extends Component {
           gitHubLink: "https://github.com/jawalton6616/simpsons-quote-trivia",
           selected: false,
         },
+        {
+          id: 4,
+          title: "Weather Dashboard",
+          subTitle:
+            "Check the current weather AND a 5 day forecast of any city you want",
+          //ADDGIF WEATHER DASHBOARD
+          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          link: "https://jawalton6616.github.io/weather-dashboard/",
+          gitHubLink: "https://github.com/jawalton6616/weather-dashboard",
+          selected: false,
+        },
+        {
+          id: 5,
+          title: "Password Generator",
+          subTitle: "Password too weak? Problem solved!",
+          //ADDGIF PASSWORD GENERATOR
+          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          link: "https://jawalton6616.github.io/password-generator/",
+          gitHubLink: "https://github.com/jawalton6616/password-generator",
+          selected: false,
+        },
+        {
+          id: 6,
+          title: "Work Scheduler",
+          subTitle: "Keep track of your busy work day.",
+          //ADDGIF WORK SCHEDULER
+          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          link: "https://jawalton6616.github.io/simpsons-quote-trivia/",
+          gitHubLink: "https://github.com/jawalton6616/simpsons-quote-trivia",
+          selected: false,
+        },
+        {
+          id: 7,
+          title: "README Generator",
+          subTitle: "Because making README's are never fun",
+          //ADDGIF READMEGENERATOR
+          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          link: "https://github.com/jawalton6616/readme-generator",
+          gitHubLink: "https://github.com/jawalton6616/readme-generator",
+          selected: false,
+        },
+        {
+          id: 8,
+          title: "Burger Logger",
+          subTitle:
+            "Keep track of your dream list of burgers that you want to devour!",
+          //ADDGIF BURGER LOGGER
+          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          link: "https://salty-earth-63688.herokuapp.com/",
+          gitHubLink: "https://github.com/jawalton6616/burger-log",
+          selected: false,
+        },
       ],
     };
   }

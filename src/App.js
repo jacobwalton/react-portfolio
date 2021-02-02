@@ -43,6 +43,7 @@ class App extends React.Component {
             {/* nav toggle links button*/}
             <Navbar.Toggle aria-controls="navbar-toggle" className="border-0" />
             {/* controls toggle */}
+            {/* add night mode btn here */}
             <Navbar.Collapse id="navbar-toggle">
               {/* nav links */}
               <Nav className="ml-auto">

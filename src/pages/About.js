@@ -11,13 +11,13 @@ function About(props) {
       <Hero title={props.title} />
       <Content className="px-4">
         My name is Jacob Walton. I am a full stack web developer and recent
-        graduate of KU's Coding Boot Camp. I am self-taught in music production
-        as well as graphic design. So far I've learned the popular "MERN" stack
-        as well as some additional libraries, frameworks and technologies
-        (listed below). Being that I've always had a passion for creating and
-        learning, I believe that there are no limits to how skilled of a
-        programmer I can become.
-        <hr />
+        graduate of KU's Coding Boot Camp. So far I've learned the popular
+        "MERN" stack as well as some additional libraries, frameworks and
+        technologies (listed below). Being self-taught in music production as
+        well as graphic design, I believe always had a strong desire to learn
+        and push myself. I've always had a passion for creating and learning,
+        and I believe that there are no limits to how skilled of a developer I
+        can become.
         <Accordion>
           <Card>
             <Card.Header>
@@ -30,15 +30,14 @@ function About(props) {
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
+                  <li>BootStrap</li>
+                  <li>Bulma</li>
                   <li>Sass</li>
                   <li>JavaScript</li>
                   <li>jQuery</li>
                   <li>AJAX & AXIOS</li>
-                  <li>BootStrap</li>
-                  <li>Material</li>
-                  <li>Bulma</li>
+                  <li>Material UI</li>
                   <li>React</li>
-                  <li>React-Bootstrap</li>
                 </ul>
               </Card.Body>
             </Accordion.Collapse>
@@ -55,27 +54,14 @@ function About(props) {
                   <li>Node.js</li>
                   <li>Express.js</li>
                   <li>Handlebars.js</li>
-                </ul>
-                <br />
-                <em>
-                  *I also have experience with ORM, API's, user authentication,
-                  writing tests
-                </em>
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Card.Header>
-              <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                DATABASES
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="2">
-              <Card.Body>
-                <ul>
                   <li>MySQL</li>
                   <li>MongoDB</li>
                 </ul>
+                <br />
+                <em>
+                  *I also have experience with ORM, API's, & user
+                  authentication.
+                </em>
               </Card.Body>
             </Accordion.Collapse>
           </Card>

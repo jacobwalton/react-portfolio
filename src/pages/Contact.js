@@ -20,6 +20,7 @@ function Contact(props) {
             <a
               href="https://github.com/jawalton6616?tab=repositories"
               target="_blank"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>
@@ -29,6 +30,7 @@ function Contact(props) {
             <a
               href="https://www.linkedin.com/in/jacob-walton-b7b3911a2/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn
             </a>
