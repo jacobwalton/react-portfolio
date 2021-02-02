@@ -13,7 +13,7 @@ class Carousel extends Component {
           title: "Employee Directory",
           subTitle:
             "Easily keep track of your employees by utilizing a search bar and the ability to sort by name!",
-          src: "https://i.ibb.co/Tgq1Wt8/emp-dir-proj.gif",
+          src: "https://i.ibb.co/cbkbLmQ/EMPLOYEE-DIR.png",
           link: "https://jacob-emp-dir.herokuapp.com/",
           gitHubLink: "https://github.com/jawalton6616/employee-directory",
           selected: false,
@@ -22,7 +22,7 @@ class Carousel extends Component {
           id: 1,
           title: "Fitness Tracker",
           subTitle: "Keep track of your cardio and resistance exercises!",
-          src: "https://i.ibb.co/xmHXzSm/fitness-hmwk.gif",
+          src: "https://i.ibb.co/pWCpn1q/FITNESS-TRACKER.png",
           link: "https://gentle-badlands-81439.herokuapp.com/",
           gitHubLink: "https://github.com/jawalton6616/workout-tracker",
           selected: false,
@@ -32,7 +32,7 @@ class Carousel extends Component {
           title: "Note Taker",
           subTitle:
             "Note taker for grocery lists, todo lists, or anything you want.",
-          src: "https://i.ibb.co/k23RPf6/note-taker-hmwk.gif",
+          src: "https://i.ibb.co/nRrsYWM/NOTE-TAKER.png",
           link: "https://vast-journey-82352.herokuapp.com/",
           gitHubLink: "https://github.com/jawalton6616/note-taker",
           selected: false,
@@ -42,7 +42,7 @@ class Carousel extends Component {
           title: "Covid Tracker",
           subTitle: "Keep track of all the latest COVID numbers",
           //replace img below
-          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          src: "https://i.ibb.co/gVRWbXD/COVID-TRACKER.png",
           link: "https://covid-tracker-79a3b.web.app/",
           gitHubLink: "https://github.com/jawalton6616/covid-tracker",
           selected: false,
@@ -52,62 +52,41 @@ class Carousel extends Component {
           title: "React News App",
           subTitle: "Follow all the latest news stories",
           //replace img below
-          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          src: "https://i.ibb.co/mFTVRr0/NEWS-APP.png",
           link: "https://news-app-dun.vercel.app/",
           gitHubLink: "https://github.com/jawalton6616/news-app",
           selected: false,
         },
+
         {
           id: 5,
-          title: "Workout Tracker",
-          subTitle: "Keep track of all your trips to the gym!",
-          //replace img below
-          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
-          link: "https://gentle-badlands-81439.herokuapp.com/",
-          gitHubLink: "https://github.com/jawalton6616/workout-tracker",
-          selected: false,
-        },
-        {
-          id: 6,
           title: "Weather Dashboard",
           subTitle:
             "Find out the weather and 5 day forecast of any city imaginable",
           //replace img below
-          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          src: "https://i.ibb.co/QYF7D9M/WEATHER-DASH.png",
           link: "https://jawalton6616.github.io/weather-dashboard/",
           gitHubLink: "https://github.com/jawalton6616/weather-dashboard",
           selected: false,
         },
         {
-          id: 7,
+          id: 6,
           title: "README Generator",
           subTitle: "Because making README's are never fun",
           //replace img below
-          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          src: "https://i.ibb.co/pZPJJ0g/README-GEN.png",
           link: "https://github.com/jawalton6616/readme-generator",
           gitHubLink: "https://github.com/jawalton6616/readme-generator",
           selected: false,
         },
         {
-          id: 8,
+          id: 7,
           title: "Country Info App",
           subTitle: "Easily find and view country information",
           //replace img below
-          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
+          src: "https://i.ibb.co/xM1mB5x/COUNTRY-INFO.png",
           link: "https://country-info-app.vercel.app/",
           gitHubLink: "https://github.com/jawalton6616/country-info-app",
-          selected: false,
-        },
-        {
-          id: 9,
-          title: "Password Generator",
-          subTitle:
-            "Having trouble coming up with a password? Use this easy password generator",
-          //replace img below
-          src: "https://i.ibb.co/gDqgmSP/simpsons-proj.gif",
-          link: "https://jawalton6616.github.io/password-generator/",
-          gitHubLink:
-            "https://github.com/jawalton6616/password-generator/blob/master/README.md",
           selected: false,
         },
       ],
